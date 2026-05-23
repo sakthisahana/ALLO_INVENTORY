@@ -118,7 +118,7 @@ Before any reservation is created, we acquire a **Redis lock** keyed on `lock:st
 ```
 Request A                         Request B
   │                                   │
-  ├─ SET lock NX PX 5000 → "OK"      ├─ SET lock NX PX 5000 → nil (blocked)
+  ├─ SET lock NX PX 5000 → "OK"       ├─ SET lock NX PX 5000 → nil (blocked)
   ├─ Read stock: 1 available          │   (retries up to 20x with 50ms delay)
   ├─ Create reservation               │
   ├─ Increment reservedUnits          │
@@ -145,7 +145,7 @@ A serializable Postgres transaction alone would work but under high load causes 
 
 ```json
 {
-  "crons": [{ "path": "/api/cron/expire-reservations", "schedule": "* * * * *" }]
+  "crons": [{ "path": "/api/cron/expire-reservations", "schedule": "0 0 * * *" }]
 }
 ```
 
