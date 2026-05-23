@@ -2,7 +2,7 @@
 
 A Next.js (App Router) application for multi-warehouse inventory management with race-condition-safe reservations.
 
-LIVE URL=https://allo-health-jceb.vercel.app/
+LIVE URL=https://allo-inventory-df6u.vercel.app/
 
 ---
 
