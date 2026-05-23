@@ -1,6 +1,5 @@
 # Allo Inventory — Engineering Take-Home
-*Submitted as part of the Allo Engineering take-home exercise.*  
-*— SAKTHI SAHANA D · 22MIS0619*
+*Submitted by:* SAKTHI SAHANA D &nbsp;|&nbsp; *Register Number:* 22MIS0619
 
 A Next.js (App Router) application for multi-warehouse inventory management with race-condition-safe reservations.
 
