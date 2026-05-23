@@ -1,8 +1,11 @@
 # Allo Inventory — Engineering Take-Home
+*Submitted as part of the Allo Engineering take-home exercise.*  
+*— SAKTHI SAHANA D · 22MIS0619*
 
 A Next.js (App Router) application for multi-warehouse inventory management with race-condition-safe reservations.
 
-LIVE URL=https://allo-inventory-df6u.vercel.app/
+## 🌐 Live Demo
+https://allo-inventory-df6u.vercel.app/
 
 ---
 
